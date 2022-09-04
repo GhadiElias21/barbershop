@@ -1,0 +1,137 @@
+
+main{ position: relative;}
+
+
+
+
+
+form {
+  position: fixed;
+  top:200px;
+  left: 500px;
+  width:800px;
+    display:flex;
+    padding:50px;
+     margin-top:100px;
+    background-color:rgba(255, 255, 255, 0.663);
+    flex-direction:column;
+    gap:40px;
+    align-items:center;
+    font-size:30px;
+    font-family:Arial,sans-serif;
+   
+    }
+    
+    .x{
+      background-color:rgb(255, 255, 255);
+      color:rgb(21, 21, 21);
+      border:none;
+      outline:none;
+      font-size:40px;
+      z-index: 1;
+
+      position: absolute;
+      bottom:589px;
+      right:500px;
+     
+      background-color:transparent;
+      cursor: pointer;
+      align-items: center;
+     
+    }
+ 
+    .input1{
+        border:2px solid #6f561f;
+        border-radius:0.5rem;
+        padding:1.25rem;
+        background:none;
+        color:white;
+        font-size: 20px;
+        outline:none
+    }
+    .input1:hover{
+     border-color:#a88c4f
+    }
+    .input1:focus{
+      border-color:#fff1c7 
+     }
+
+     .input2{
+      border:2px solid #6f561f;
+      border-radius:0.5rem;
+      padding:1.25rem;
+      background:none;
+      color:white;
+      font-size: 20px;
+      outline:none
+  }
+  .input2:hover{
+   border-color:#a88c4f
+  }
+  .input2:focus{
+    border-color:#fff1c7 
+   }
+   ::placeholder{
+    color:black;
+    font-size: 18.8px;
+   }
+
+    .button{
+      padding:16px;
+      border-radius:20px;
+      background-color:transparent;
+      cursor: pointer;
+      width:250px;
+    }
+    .button:disabled{
+      background-color:none;
+     
+      text-decoration: line-through
+    }
+
+    @media all and (max-width: 1250px){
+   .x{
+    z-index: 1;
+    bottom:510px;
+    right:0;
+    top:270px;
+   padding:15px;
+    
+    font-size:25px
+   }
+      form{
+        position: absolute;
+        top:20%;
+       left: 0%;
+       width:75vw;
+        ;
+      }
+      .input1{
+        padding:8px;
+        margin-left:1px;
+      font-size:20px ;
+    }
+   
+    .input2{
+        padding:8px;
+        font-size:20px;
+        margin-left:1px;
+    }
+
+    .button{
+      padding:26px;
+      border-radius:20px;
+      background-color:rgb(255, 255, 255);
+      cursor: pointer;
+      border:none;
+      width:250px;
+      font-size: 20px;
+    }
+    .button:disabled{
+      background-color:rgb(255, 255, 255);
+     
+      text-decoration: line-through
+    }
+
+    }
+    
