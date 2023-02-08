@@ -3,6 +3,8 @@ TECHNOLOGIES USED:
 front-end: REACT
 back-end:FIREBASE
 
+live site : https://kresht-barber-shop.netlify.app
+
 
 ![image](https://user-images.githubusercontent.com/92365477/217591859-ad126958-728a-4828-a120-6b25ccf13e60.png)
 
@@ -28,4 +30,3 @@ when you click on a picture
 
 
 
-live site : https://kresht-barber-shop.netlify.app
